@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    position: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: lemonchiffon;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    padding-top: 20vh;
+    text-align: center;
+}
+
+#imgSearchHeadline {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#imgContainer {
+    width: 100%;
+    text-align: center;
+}
+
+input {
+    height: 50px;
+    text-align: center;
+}
+
+#numberSearchInput {
+    margin: 0px 10px 0px 10px;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+#sizeSearchOption {
+    height: 50px;
+    width: 140px;
+    text-align: center;
+}
+
+#sortSearchOption {
+    height: 50px;
+    width: 200px;
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+}
+
+a {
+    margin: 5px;
+    transition: transform 0.7s;
+}
+
+img:hover {
+    transform: scale(0.95);
+}
